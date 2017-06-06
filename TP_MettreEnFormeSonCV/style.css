@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Alegreya-Regular';
+    src: url('fonts/Alegreya-Regular.otf');
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Alegreya-Regular', Arial, serif;
+
+}
+
+p {
+    color: red;
+    text-align: center;
+    border: 3px black dotted;
+    font-family: 'Alegreya-Regular', Arial, serif;
+
+}
+
+body {
+    background-image: url("img/wallpaper.png");
+    font-family: 'Alegreya-Regular', Arial, serif;
+}
+
+h2 {
+    text-shadow: 2px 2px 4px black;
+
+}

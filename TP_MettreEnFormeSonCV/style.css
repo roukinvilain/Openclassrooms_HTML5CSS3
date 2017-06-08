@@ -1,28 +1,37 @@
-@font-face {
-    font-family: 'Alegreya-Regular';
-    src: url('fonts/Alegreya-Regular.otf');
-}
-
-h1 {
-    text-align: center;
-    font-family: 'Alegreya-Regular', Arial, serif;
-
-}
-
-p {
-    color: red;
-    text-align: center;
-    border: 3px black dotted;
-    font-family: 'Alegreya-Regular', Arial, serif;
-
-}
-
 body {
-    background-image: url("img/wallpaper.png");
-    font-family: 'Alegreya-Regular', Arial, serif;
+  background-color: #D8D8D8;
+}
+h1, h2 {
+  color: maroon;
+  text-shadow: 2px 2px 4px gray;
+}
+#sidebar {
+  position: fixed;
+  left: 0px;
+  top: 0;
+  bottom: 0;
+  background-image: url(img/background.jpg) ;
+  width: 180px;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 6px 0px 0px gray;
 }
 
-h2 {
-    text-shadow: 2px 2px 4px black;
 
+#topsection
+{
+  display: flex;
+  justify-content: space-around;
+  text-align-last: center;
+  margin-left: 28%;
+  
+}
+
+#conteneurs
+{
+  display: flex;
+  justify-content: space-around;
+  align-content: space-around;
+  align-self: auto;
+  margin-left: 8%;
 }

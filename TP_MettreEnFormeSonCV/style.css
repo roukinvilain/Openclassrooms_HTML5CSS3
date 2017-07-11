@@ -28,6 +28,7 @@ h2 {
   display: flex;
   justify-content: space-around;
   text-align-last: center;
+  align-items: center;
   margin-left: 210px;
   
 }
